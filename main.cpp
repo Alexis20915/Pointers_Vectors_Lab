@@ -1,6 +1,15 @@
 #include <iostream>
 #include <limits>
 #include "Inventory.h"
+// Alexis Lopez Echevarria, 8 March  2026, Inventory class to own a collection of dynamically allocated Book objects, ensuring that all memory is automatically freed when the Inventory object is destroyed
+// AI ASSISTANCE DISCLOSURE
+//
+// Tool(s) Used: [ChatGPT, Deepseek]
+// Date(s) of Use: [3/8/26]
+//
+// Description of Use:
+// AI helped with syntax errors, misspelled words, and explaining concepts.
+// Also helped add and revise parts of the code, helping to eliminate excess code
 
 void displayMenu();
 std::string getStringInput(const std::string& prompt);
